@@ -1,6 +1,8 @@
 spring:
   application:
     name: inbox-app
+  main:
+    allow-circular-references: true
   security:
     oauth2:
       client:
